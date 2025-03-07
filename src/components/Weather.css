@@ -13,7 +13,6 @@
     display: flex;
     align-items: center;
     gap: 12px;
-
 }
 
 .search-bar input{
@@ -25,25 +24,19 @@
     color: #626262;
     background: #ebfffc;
     font-size: 18px;
-
 }
 
 
 .search-bar img{
     width: 60px;
-
-    /* padding: 15px; */
     border-radius: 50px;
-    /* background: #0f3731; */
-     
     cursor: pointer;
-
-
 }
 
 .weather-icon{
     width:180px;
     margin:30px, 0;
+     
 }
 
 .temperature{
@@ -55,7 +48,6 @@
 .location{
     color: #fff;
     font-size: 40px;
-
 }
 
 .weather-data{
@@ -76,14 +68,11 @@
 .weather-data .col span{
     display: block;
     font-size: 16px;
-
 }
 
 .weather-data .col img{
     width: 50px;
-    margin-top: 10px;
-     
-     
+    margin-top: 10px;  
 }
 
 
