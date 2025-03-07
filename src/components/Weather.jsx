@@ -51,7 +51,7 @@ const Weather = () => {
         humidity: data.current.humidity,
         windSpeed: data.current.wind_kph,
         temperature: Math.floor(data.current.temp_c),
-        location: `${data.location.name}, ${data.location.country}`,
+        location: `${data.location.name}, ${data.location.country}`,  // want country name along with city
         icon: icon,
       });
     } catch (error) {
@@ -74,7 +74,7 @@ const Weather = () => {
       {weatherData ? (
         <>
           <img src={weatherData.icon} alt="Weather Icon" className='weather-icon' />
-          <p className='temperature'>{weatherData.temperature}{"\u00B0"}C</p>
+          <p className='temperature'>{weatherData.temperature}{"\u00B0"}c</p>
           <p className='location'>{weatherData.location}</p>
 
           <div className="weather-data">
