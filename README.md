@@ -6,3 +6,7 @@
 - Displays temperature, humidity, and wind speed
 - Real-time API integration
 - User-friendly and responsive UI
+
+## Tech Stack
+- **Frontend:** React, CSS
+- **API:** OpenWeatherMap API
