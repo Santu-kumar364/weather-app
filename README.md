@@ -11,7 +11,7 @@
 - **Frontend:** React, CSS
 - **API:** OpenWeatherMap API
 
-## Screenshorts
+## Screenshots
 
 ![Screenshot 2025-03-07 162806](https://github.com/user-attachments/assets/1ae1c966-4b5e-46a8-af0f-ad47fa49ba19)
 ![Screenshot 2025-03-07 162847](https://github.com/user-attachments/assets/c25dacf0-53a9-48e9-82b6-ec7b76e3ea91)
