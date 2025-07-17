@@ -32,7 +32,6 @@
     border-radius: 50px;
     cursor: pointer;
     transition: transform 0.3s ease-in-out;
-     
 }
 
 .search-bar img:hover {
@@ -42,7 +41,6 @@
 .weather-icon{
     width:180px;
     padding: 25px 0;
-     
 }
 
 .temperature{
@@ -94,8 +92,7 @@
         font-size: 30px;
     }
     .location{  
-        font-size: 16px;
-         
+        font-size: 16px;  
     }
 
     .weather-data {
@@ -104,17 +101,14 @@
         flex-direction: row;
         gap: 15px;
     }
-
     .weather-data .col img{
         width: 30px;
     }
     .weather-data .col span{
         font-size: 15px;
     }
- 
 }
 
- 
 @media (max-width: 1024px) {
     .weather {
         max-width: 80%;
@@ -126,3 +120,7 @@
         max-width: 500px;
     }
 }
+
+
+
+
