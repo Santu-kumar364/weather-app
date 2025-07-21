@@ -59,8 +59,23 @@ const Weather = () => {
     }
   };
 
+  const getLocation = () => {
+    if(navigator.geolocation) {
+      navigator.geolocation.getCurrentPosition((position) => {
+        const lat = position.coords.latitude;
+        const lon = position.coords.longitude;
+        search(`${lat},${lon}`); // searching by latitude and longitude
+      }, (error) => {
+        console.error("Error getting location:", error);
+        search("Mumbai")
+      });
+
+    }
+  }
+    
+
   useEffect(() => {
-    search("Mumbai");
+    getLocation();
   }, []);
 
   return (
