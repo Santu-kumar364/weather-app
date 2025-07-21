@@ -34,7 +34,7 @@ const Weather = () => {
     }
 
     try {
-      const url = `http://api.weatherapi.com/v1/current.json?key=${
+      const url = `https://api.weatherapi.com/v1/current.json?key=${
         import.meta.env.VITE_API_KEY
       }&q=${city}`;
       const response = await fetch(url);
